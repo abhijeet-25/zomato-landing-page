@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section starts */
+
+/* navbar */
+.hero__section {
+    background-image: url("../zomato-landing-page/images/heroSectionBackground.png");
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 140px;
+    height: 60px;
+
+}
+
+#get-app {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar--menu-container {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.user-icon {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    display: none;
+}
+
+@media (max-width:600px) {
+    .navbar--menu-container .link{
+        display: none;
+    }
+    .user-icon {
+        display: flex;
+    }
+    
+    .navbar{
+        padding:16px;
+    }
+    .hero__section{
+        min-height: 80vh;
+    }
+}
