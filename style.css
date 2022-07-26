@@ -154,11 +154,11 @@
     justify-content: space-between;
     gap:10px;
     flex-wrap: wrap;
-    font-size: 16px;
+    font-size: 17px;
 }
 .sub__heading_collection span:nth-child(2){
     color: #ff7e8b;
-    font-size: 16px;
+    font-size: 14px;
 }
 .collection .collection__card_container{
     margin-top: 24px;
